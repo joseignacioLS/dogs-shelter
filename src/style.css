@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: "Mochiy Pop P One", sans-serif;
+    background-size:25%;
+    overflow-y:auto;
+
+}
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+.container{
+    background-color:white;
+    max-width:800px;
+    margin:auto;
+    
+}
+
+nav{
+    background-color:white;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    box-shadow: 0px 3px 7.5px rgba(0,0,0,.1);
+}
+
+.nav--logo{
+    padding:20px;
+    height:70px;
+}
+
+.hero--section{
+    padding-top:25px;
+    width:680px;
+    margin:auto;
+
+}
+.photogrid{
+    width:480px;
+    display:flex;
+    align-items: center;
+    margin:auto;
+}
+
+
+.photogrid--pic{
+    width:150px;
+    border-radius: 25px;
+    margin-top:10px;
+}
+
+.title--section{
+    padding-top:25px;
+}
+
+.title{
+    font-size:18px;
+}
+.description{
+    padding-top:5px;
+    font-size:12px;
+}
+
+.card--section{
+    display:flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap:nowrap;
+    gap:20px;
+    padding:20px;
+    overflow-x: auto;
+
+}
+
+::-webkit-scrollbar{
+    background-color:white;
+}
+
+::-webkit-scrollbar-thumb{
+   background-color:black; 
+   border: 3px solid transparent;
+   border-radius: 10px;
+   background-clip: content-box;
+   height:50px;
+}
+
+
+.card{
+    min-width:150px;
+    max-width:150px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    padding:15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,.3);
+}
+
+.card--img{
+    width:100%;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.card--stats > ul{
+    list-style: none;
+}
+
+.ff--tag{
+    width:40px;
+    margin-bottom:-40px;
+    z-index:10;
+}
