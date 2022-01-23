@@ -10,8 +10,8 @@ export default function Card(props)
             {props.dog.family_friendly && <img className="ff--tag" src={ff_tag} />}
             <img className="card--img" src={`./images/${props.dog.img}`}/>
             <div className="card--stats">
-                <h3>{props.dog.name}</h3>
-                <ul>
+                <h3 className="dog--name">{props.dog.name}</h3>
+                <ul className="dog--stats">
                     <li><b>{props.dog.age}</b> years old</li>
                     <li>{props.dog.race}</li>
                 </ul>
